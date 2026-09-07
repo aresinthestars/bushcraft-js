@@ -96,7 +96,12 @@ botonFinalizar.addEventListener("click", () => {
     if (kitIds.length === 0) {
         Toastify({
             text: "Tu kit está vacío",
-            duration: 3000
+            duration: 3000,
+            gravity: "top",
+            position: "right",
+            style: {
+                background: "linear-gradient(90deg, #7f6aa8, #5f4d85)"
+            }
         }).showToast();
 
         return;
@@ -107,7 +112,12 @@ botonFinalizar.addEventListener("click", () => {
 
     Toastify({
         text: "Kit finalizado correctamente",
-        duration: 3000
+        duration: 3000,
+        gravity: "top",
+        position: "right",
+        style: {
+            background: "linear-gradient(90deg, #234636, #c96b4a)"
+        }
     }).showToast();
 });
 
