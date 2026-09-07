@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cuchillo Bushcraft",
+        "precio": 25000,
+        "categoria": "herramientas"
+    },
+    {
+        "id": 2,
+        "nombre": "Ferrocerio",
+        "precio": 12000,
+        "categoria": "fuego"
+    },
+    {
+        "id": 3,
+        "nombre": "Mochila Bushcraft",
+        "precio": 60000,
+        "categoria": "equipamiento"
+    },
+    {
+        "id": 4,
+        "nombre": "Cantimplora",
+        "precio": 18000,
+        "categoria": "hidratacion"
+    },
+    {
+        "id": 5,
+        "nombre": "Kit de primeros auxilios",
+        "precio": 30000,
+        "categoria": "seguridad"
+    }
+]
